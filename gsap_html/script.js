@@ -1,4 +1,13 @@
 gsap.to(".green", { 
-    y: 800,
-  });
-  
+    x: 600,
+    duration: 2, 
+  },  
+
+);
+gsap.to(".text", { 
+  x: 600,
+  y: 600,
+  duration: 2, 
+  opacity: 0.5
+},
+);
